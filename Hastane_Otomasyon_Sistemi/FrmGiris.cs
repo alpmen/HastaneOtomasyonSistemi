@@ -50,5 +50,10 @@ namespace Hastane_Otomasyon_Sistemi
             label11.Text = DateTime.Now.Minute.ToString();
             label12.Text = DateTime.Now.Hour.ToString() + " : ";
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
