@@ -81,5 +81,16 @@ namespace Hastane_Otomasyon_Sistemi
             FrmHastaListesi fr = new FrmHastaListesi();
             fr.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            txtad.Text = "";
+            txtsoyad.Text = "";
+            txtsifre.Text = "";
+            cmbcinsiyet.Text = "";
+            mskkimlikno.Text = "";
+            msktelefon.Text = "";
+           
+        }
     }
 }

@@ -48,6 +48,7 @@ namespace Hastane_Otomasyon_Sistemi
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -103,6 +104,7 @@ namespace Hastane_Otomasyon_Sistemi
             // 
             // txtad
             // 
+            this.txtad.Enabled = false;
             this.txtad.Location = new System.Drawing.Point(146, 66);
             this.txtad.Name = "txtad";
             this.txtad.Size = new System.Drawing.Size(184, 29);
@@ -110,6 +112,7 @@ namespace Hastane_Otomasyon_Sistemi
             // 
             // txtsoyad
             // 
+            this.txtsoyad.Enabled = false;
             this.txtsoyad.Location = new System.Drawing.Point(146, 108);
             this.txtsoyad.Name = "txtsoyad";
             this.txtsoyad.Size = new System.Drawing.Size(184, 29);
@@ -125,6 +128,7 @@ namespace Hastane_Otomasyon_Sistemi
             // 
             // msktc
             // 
+            this.msktc.Enabled = false;
             this.msktc.Location = new System.Drawing.Point(146, 192);
             this.msktc.Mask = "00000000000";
             this.msktc.Name = "msktc";
@@ -177,7 +181,7 @@ namespace Hastane_Otomasyon_Sistemi
             // btngüncelle
             // 
             this.btngüncelle.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btngüncelle.BackgroundImage")));
-            this.btngüncelle.Location = new System.Drawing.Point(142, 384);
+            this.btngüncelle.Location = new System.Drawing.Point(88, 390);
             this.btngüncelle.Name = "btngüncelle";
             this.btngüncelle.Size = new System.Drawing.Size(188, 50);
             this.btngüncelle.TabIndex = 8;
@@ -231,12 +235,24 @@ namespace Hastane_Otomasyon_Sistemi
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // button3
+            // 
+            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
+            this.button3.Location = new System.Drawing.Point(12, 317);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(117, 50);
+            this.button3.TabIndex = 20;
+            this.button3.Text = "TEMİZLE";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // FrmDoktorPaneli
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1013, 483);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.checkBox1);
@@ -288,5 +304,6 @@ namespace Hastane_Otomasyon_Sistemi
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }

@@ -162,6 +162,7 @@ namespace Hastane_Otomasyon_Sistemi
             this.Name = "frmHastaGiris";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hasta Giriş Paneli";
+            this.Load += new System.EventHandler(this.frmHastaGiris_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

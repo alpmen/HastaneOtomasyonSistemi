@@ -69,5 +69,11 @@ namespace Hastane_Otomasyon_Sistemi
             da.Fill(dt);
             dataGridView1.DataSource = dt;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            txtBransad.Text = "";
+            txtid.Text = "";
+        }
     }
 }

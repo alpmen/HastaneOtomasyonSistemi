@@ -107,5 +107,14 @@ namespace Hastane_Otomasyon_Sistemi
             da1.Fill(dt1);
             dataGridView1.DataSource = dt1;
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            txtad.Text = "";
+            txtsoyad.Text = "";
+            txtsifre.Text = "";
+            msktc.Text = "";
+            cmbbrans.Text = "";
+        }
     }
 }

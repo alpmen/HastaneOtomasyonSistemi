@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hastane_Otomasyon_Sistemi", "Hastane_Otomasyon_Sistemi\Hastane_Otomasyon_Sistemi.csproj", "{501DC774-07B7-49D6-8F7B-5C92E4BEA039}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{3ACE9C8E-2FD5-4705-B3CA-03061DA60826}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{501DC774-07B7-49D6-8F7B-5C92E4BEA039}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{501DC774-07B7-49D6-8F7B-5C92E4BEA039}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{501DC774-07B7-49D6-8F7B-5C92E4BEA039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ACE9C8E-2FD5-4705-B3CA-03061DA60826}.Debug|Any CPU.ActiveCfg = Debug
+		{3ACE9C8E-2FD5-4705-B3CA-03061DA60826}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

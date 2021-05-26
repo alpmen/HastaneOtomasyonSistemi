@@ -56,5 +56,10 @@ namespace Hastane_Otomasyon_Sistemi
             fr.Show();
             this.Hide();
         }
+
+        private void frmHastaGiris_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

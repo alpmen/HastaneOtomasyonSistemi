@@ -64,7 +64,7 @@ namespace Hastane_Otomasyon_Sistemi
             this.Controls.Add(this.webBrowser2);
             this.Name = "FrmInternetSitesi";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmInternetSitesi";
+            this.Text = "İnternet Sitesi";
             this.Load += new System.EventHandler(this.FrmInternetSitesi_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

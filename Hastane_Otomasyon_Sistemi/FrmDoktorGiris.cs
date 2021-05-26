@@ -51,5 +51,10 @@ namespace Hastane_Otomasyon_Sistemi
             fr.Show();
             this.Hide();
         }
+
+        private void FrmDoktorGiris_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

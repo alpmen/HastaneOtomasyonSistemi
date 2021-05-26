@@ -40,6 +40,7 @@ namespace Hastane_Otomasyon_Sistemi
             this.label2 = new System.Windows.Forms.Label();
             this.lbl = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,7 +59,7 @@ namespace Hastane_Otomasyon_Sistemi
             // 
             this.btngüncelle.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btngüncelle.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btngüncelle.BackgroundImage")));
-            this.btngüncelle.Location = new System.Drawing.Point(146, 229);
+            this.btngüncelle.Location = new System.Drawing.Point(148, 229);
             this.btngüncelle.Name = "btngüncelle";
             this.btngüncelle.Size = new System.Drawing.Size(188, 50);
             this.btngüncelle.TabIndex = 29;
@@ -70,7 +71,7 @@ namespace Hastane_Otomasyon_Sistemi
             // 
             this.btnsil.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnsil.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnsil.BackgroundImage")));
-            this.btnsil.Location = new System.Drawing.Point(246, 162);
+            this.btnsil.Location = new System.Drawing.Point(170, 162);
             this.btnsil.Name = "btnsil";
             this.btnsil.Size = new System.Drawing.Size(88, 50);
             this.btnsil.TabIndex = 28;
@@ -82,7 +83,7 @@ namespace Hastane_Otomasyon_Sistemi
             // 
             this.btnekle.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnekle.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnekle.BackgroundImage")));
-            this.btnekle.Location = new System.Drawing.Point(146, 162);
+            this.btnekle.Location = new System.Drawing.Point(76, 162);
             this.btnekle.Name = "btnekle";
             this.btnekle.Size = new System.Drawing.Size(88, 50);
             this.btnekle.TabIndex = 27;
@@ -149,12 +150,25 @@ namespace Hastane_Otomasyon_Sistemi
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
+            this.button2.Location = new System.Drawing.Point(29, 229);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(111, 50);
+            this.button2.TabIndex = 32;
+            this.button2.Text = "TEMİZLE";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // FrmBransPaneli
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(601, 291);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.btngüncelle);
@@ -190,5 +204,6 @@ namespace Hastane_Otomasyon_Sistemi
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lbl;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }

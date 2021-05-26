@@ -145,6 +145,7 @@ namespace Hastane_Otomasyon_Sistemi
             this.Name = "FrmDoktorGiris";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Doktor Giriş";
+            this.Load += new System.EventHandler(this.FrmDoktorGiris_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

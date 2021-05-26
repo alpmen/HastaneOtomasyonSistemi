@@ -59,6 +59,7 @@ namespace Hastane_Otomasyon_Sistemi
             // 
             // mskkimlikno
             // 
+            this.mskkimlikno.Enabled = false;
             this.mskkimlikno.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.mskkimlikno.Location = new System.Drawing.Point(187, 130);
             this.mskkimlikno.Margin = new System.Windows.Forms.Padding(2);
@@ -70,6 +71,7 @@ namespace Hastane_Otomasyon_Sistemi
             // 
             // txtsoyad
             // 
+            this.txtsoyad.Enabled = false;
             this.txtsoyad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtsoyad.Location = new System.Drawing.Point(187, 98);
             this.txtsoyad.Margin = new System.Windows.Forms.Padding(2);
@@ -79,6 +81,7 @@ namespace Hastane_Otomasyon_Sistemi
             // 
             // txtad
             // 
+            this.txtad.Enabled = false;
             this.txtad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtad.Location = new System.Drawing.Point(187, 67);
             this.txtad.Margin = new System.Windows.Forms.Padding(2);
